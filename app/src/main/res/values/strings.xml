@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">Dump1090 Plugin</string>
+    <!-- description -->
+    <string name="app_desc">Parses dump1090 APK SBS-1 server</string>
+
+
+
+
+</resources>

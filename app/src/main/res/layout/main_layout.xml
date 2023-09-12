@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fadeScrollbars="false"
+    android:layout_marginLeft="3dp"
+    android:layout_marginRight="3dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name" />
+
+        <Button
+            android:layout_marginTop="10pt"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:id="@+id/enableBtn"
+            android:background="@color/red"
+            android:text="Receiving *OFF*"/>
+
+        <TextView
+            android:layout_marginTop="10pt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Filter by ICAO(s)" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="10pt"
+            android:inputType="text"
+            android:hint="Use comma for multiple"
+            android:id="@+id/IcaoList" />
+
+        <TextView
+            android:layout_marginTop="10pt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Filter by altitude" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="10pt"
+            android:inputType="number"
+            android:hint="Use feet"
+            android:id="@+id/AltitudeLimit" />
+
+        <Switch
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/exportBtn"
+            android:text="Enable external dispatch" />
+
+    </LinearLayout>
+</ScrollView>
