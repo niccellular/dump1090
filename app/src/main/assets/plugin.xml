@@ -3,13 +3,9 @@
 <plugin>
 
     <extension
-        type="transapps.maps.plugin.lifecycle.Lifecycle"
+        type="gov.tak.api.plugin.IPlugin"
         impl="com.atakmap.android.dump1090.plugin.dump1090Lifecycle"
         singleton="true" />
 
-    <extension
-        type="transapps.maps.plugin.tool.ToolDescriptor"
-        impl="com.atakmap.android.dump1090.plugin.dump1090Tool"
-        singleton="true" />
 
 </plugin>
